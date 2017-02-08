@@ -1,2 +1,1 @@
-worker: rake video_conversor_batch
-clock: rake script_worker_autoscaling
+web: python manage.py runserver
