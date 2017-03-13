@@ -73,17 +73,7 @@ WSGI_APPLICATION = 'laboratorio.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'da0nb01nt8scq8',
-        'USER': 'ftksvjizemjggn',
-        'PASSWORD': 'df8f61122d25b72a4c38450d1c8fa5cb8898e78fe8be29481bdeeb230c37eceb',
-        'HOST': 'ec2-54-163-234-140.compute-1.amazonaws.com',
-        'PORT': '5432',
-    }
-}
+DATABASES = {'default': dj_database_url.config(default=os.environ.get('DATABASE_URL'))}
 
 
 # Password validation
