@@ -25,7 +25,7 @@ SECRET_KEY = '^^1$y&uto-*&%&ah3^^)@#kxa%_e^c#4do4m$*g%$67%ymq67+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['biodiversidad-agiles.herokuapp.com']
 
 
 # Application definition
