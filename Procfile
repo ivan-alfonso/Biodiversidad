@@ -1,1 +1,1 @@
-web: gunicorn reservanatural.wsgi
+web: python manage.py runserver
