@@ -74,8 +74,8 @@ WSGI_APPLICATION = 'laboratorio.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
-#DATABASES = {'default': dj_database_url.config(default=os.environ.get('DATABASE_URL'))}
-DATABASES = {'default': dj_database_url.config(default='postgres://vxnnoldxcmltza:fa728e1b9e787cd1a1f99e1a95c54bdd0203a77e4eb045f65ae173fc9e2e4382@ec2-54-235-240-92.compute-1.amazonaws.com:5432/d49c9j30r53mt1')}
+DATABASES = {'default': dj_database_url.config(default=os.environ.get('DATABASE_URL'))}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
