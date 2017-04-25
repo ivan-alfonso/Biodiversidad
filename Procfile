@@ -1,1 +1,1 @@
-web: gunicorn reservanatural.wsgi
+web: gunicorn laboratorio.wsgi
